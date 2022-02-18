@@ -1,0 +1,109 @@
+body {
+  background-color: #FF9F45;
+  color: black;
+  text-align: justify;
+  text-decoration: none;
+}
+
+body {
+  font-size: 2i0px;
+  line-height: 1.8;
+  letter-spacing: 0,8px;
+  font-family: Helvetica;
+}
+
+h1, h2 {
+  letter-spacing: 1px;
+}
+h2 {
+  color: #F76E11;
+}
+
+h1 {
+  color: #FC4F4F;
+  text-align: center;
+}
+
+#nina {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 5px 5px #FC4F4F;
+}
+
+a {
+  color: #FF9F45;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #FC4F4F;
+  text-decoration: none;
+}
+
+.container {
+  width: 700px; 
+  margin: 40px auto; 
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background-color: #FFBC80;
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px #FC4F4F;
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+
+#btn-white {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 15px;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+#btn-white:hover {
+  background-color: black;
+  text-decoration: none;
+}
+
+#text-inv {
+  color: #FFBC80;
+  text-align: center;
+}
+
+
+
+#text-inv {
+  list-style-type: none;
+  text-align: center; 
+  padding: 0;
+  margin: 0;
+}
+
+#text-inv li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
